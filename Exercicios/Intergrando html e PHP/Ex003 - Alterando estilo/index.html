@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterador de estilo</title>
+</head>
+<body style="text-align: center;">
+    <h1>Faça a sua escolha</h1>
+
+    <form method="get" action="cores.php">
+        <label for="texto">Texto: </label>
+        <input type="text" name="texto" id="Texto"> <br><br>
+
+        <fieldset>
+            <label for="tam">Tamanho</label>
+            <select name="tam" id="Tam">
+                <option value="8pt">8</option>
+                <option value="10pt">10</option>
+                <option value="14pt" selected>14</option>
+                <option value="17pt">17</option>
+                <option value="20pt">20</option>
+            </select> <br><br>
+
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="Cor"> <br><br>
+
+            <input type="submit" value="Gerar">
+        </fieldset>
+    </form>
+</body>
+</html>

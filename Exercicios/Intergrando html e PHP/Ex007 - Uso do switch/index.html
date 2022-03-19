@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body style="text-align: center;">
+    <h1>Vamos multiplcar os valores</h1>
+    <form method="get" action="calculadora.php">
+        <label for="nun">Número:</label>
+        <input type="number" name="nun" id="Nun">
+
+        <fieldset><legend>Operação</legend>
+            <input type="radio" name="op" id="Dobro" value="1" checked>
+            <label for="Dobro">Dobro (2X)</label>
+
+            <input type="radio" name="op" id="Cubo" value="2">
+            <label for="Cubo">Cubo (^3)</label>
+
+            <input type="radio" name="op" id="Raiz" value="3">
+            <label for="Raiz">Raiz quadrada (√)</label>
+        </fieldset> <br><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
