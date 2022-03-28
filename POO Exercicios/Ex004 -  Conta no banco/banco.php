@@ -79,7 +79,7 @@
         }
 
         public function getNunConta(){
-            return $nunConta;
+            return $this->nunConta;
         }
 
         public function setTipo($tp){
@@ -87,7 +87,7 @@
         }
 
         public function getTipo(){
-            return $tipo;
+            return $this->tipo;
         }
 
         public function setDono($dn){
@@ -95,7 +95,7 @@
         }
 
         public function getDono(){
-            return $dono;
+            return $this->dono;
         }
 
         public function setSaldo($s){
@@ -103,7 +103,7 @@
         }
 
         public function getSaldo(){
-            return $saldo;
+            return $this->saldo;
         }
 
         public function setStatus($st){
@@ -111,7 +111,7 @@
         }
 
         public function getStatus(){
-            return $status;
+            return $this->status;
         }
     }
 ?>
